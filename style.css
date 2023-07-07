@@ -23,7 +23,6 @@ justify-content: center;
 background-color: #f5f5f5;
 border-radius: 7px;
 margin: 8px;
-/* border: 2px solid #f5f5f5; */
 }
 
 .search-box:active {
@@ -170,7 +169,7 @@ border-radius: 20px;
    align-items: center;
 }
 
-p.valor{
+h2.valor{
     color: red;
 }
 
@@ -229,7 +228,7 @@ p.valor{
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    margin: 0% 10%;
+    margin: 0% 4%;
 }
 
 .saiba-mais-btn{
@@ -247,7 +246,7 @@ p.valor{
   border-radius: 20px;
   display: flex;
   justify-content: center;
-    
+  flex-direction: row; 
 }
 
 .quadrado-foto2 {
@@ -266,7 +265,7 @@ p.valor{
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  margin: 0%;
+  margin-right: 50px;
 }
 
 
@@ -290,12 +289,15 @@ p.valor{
   justify-content: center;
 }
 
+h2.informacoes3{
+margin:5% 0% ;
+}
 .informacoes3{
   display:flex;
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  margin: 0% 5%;
+  margin: 5% 5%;
 }
 
 .saiba-mais-btn{
@@ -306,7 +308,16 @@ p.valor{
   border: none;
 }
 
+.depoimento{
+  padding: 15px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
 
+.depoimentos{
+  color: #000000;
+}
 
 
 
@@ -323,6 +334,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    list-style: none;
+    text-decoration: none;
   }
    
   .welcome {
@@ -336,6 +349,8 @@ body{
     height: 100%;
     color:#FFF;
     position: relative;
+    list-style: none;
+    text-decoration: none;
   }
 
   #voltar{
@@ -354,6 +369,8 @@ body{
     width: 283px;
     height: 60px;
     flex-shrink: 0;
+    list-style: none;
+    text-decoration: none;
   }
   
   .form {
@@ -369,8 +386,8 @@ body{
     margin: 1%;
     text-align: center;
     margin-bottom: 10px;
-   
   }
+
   h3{
     font-size: 15px;
     font-weight: 300;
@@ -422,6 +439,7 @@ body{
     border: 2px solid #FFF;
     color: #f46f37;
     width: 50px;
+    text-decoration: none;
   }
 
   button2 {
@@ -568,6 +586,7 @@ p{
     border: 2px solid #FFF;
     color: #f46f37;
     width: 100px;
+    text-decoration: none;
   }
 
   button2 {
@@ -576,6 +595,7 @@ p{
     border-radius:31px ;
     border: 2px solid #FFF;
     color: #FFF;
+    
   }
 
   .container-input{
