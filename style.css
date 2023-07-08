@@ -3,26 +3,26 @@ body{
     margin: 0px;
     height: 100vh;
     width: 100vw;
-background: #f5f5f5;
-font-family: 'Raleway', sans-serif;
+    background: #f5f5f5;
+    font-family: 'Raleway', sans-serif;
 }
 
 header{
-background-image: linear-gradient(to bottom, #F46F36, #FE5108);
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-between;
-padding: 5px;
+    background-image: linear-gradient(to bottom, #F46F36, #FE5108);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
 }
 
 .search-box {
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: #f5f5f5;
-border-radius: 7px;
-margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    margin: 8px;
 }
 
 .search-box:active {
@@ -36,7 +36,7 @@ margin: 8px;
     text-align: center;
     justify-content: center;
     border-radius: 8px 0px 0px 8px;
-    border: 2px solid #F46F36;
+    border: 6px solid #F46F36;
 }
 
 .search-txt{
@@ -46,7 +46,7 @@ margin: 8px;
     outline: none;
     width: 50vw;
     border-radius: 0px 2px 2px 0;
-    margin: none;
+    margin: 0px;
     border: none;
     background: transparent;
 }
@@ -111,9 +111,9 @@ margin: 8px;
 }
 
 .nav-itens{
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-menu{
@@ -136,10 +136,10 @@ ul{
 }
 
 .products{
-background: #ffffff;
-padding: 15px;
-margin: 50px;
-border-radius: 20px;
+    background: #ffffff;
+    padding: 15px;
+    margin: 30px 200px;
+    border-radius: 20px;
 }
 
 .title-products{
@@ -206,7 +206,7 @@ h2.valor{
 .sobre-nos{
     background: #ffffff;
     padding: 15px;
-    margin: 50px;
+    margin: 30px 200px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -240,86 +240,178 @@ h2.valor{
 }
 
 .onde-encontrar{
-  background: #ffffff;
-  padding: 15px;
-  margin: 50px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  flex-direction: row; 
+    background: #ffffff;
+    padding: 15px;
+    margin: 30px 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
 }
 
 .quadrado-foto2 {
-  width: 350px;
-  height: 350px;
-  background: linear-gradient(to bottom,#fff, #D9D9D9);
-  margin: 50px;
-  border-radius: 20px;
-  display: flex;
-  align-items: end;
-  justify-content: center;
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(to bottom,#fff, #D9D9D9);
+    margin: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
 }
 
 .informacoes2{
-  display:flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  margin-right: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-right: 50px;
 }
 
 
 .curso{
-  background: #ffffff;
-  padding: 15px;
-  margin: 50px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
+    background: #ffffff;
+    padding: 15px;
+    margin: 30px 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .quadrado-foto3 {
-  width: 375px;
-  height: 300px;
-  background: linear-gradient(to bottom, #D9D9D9, #fff);
-  margin: 50px;
-  border-radius: 20px;
-  display: flex;
-  align-items: end;
-  justify-content: center;
+    width: 375px;
+    height: 300px;
+    background: linear-gradient(to bottom, #D9D9D9, #fff);
+    margin: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
 }
 
 h2.informacoes3{
-margin:5% 0% ;
+    margin:5% 0% ;
 }
+
 .informacoes3{
-  display:flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  margin: 5% 5%;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 5% 5%;
 }
 
 .saiba-mais-btn{
-  color: #fff;
-  background:#F46F36 ;
-  border-radius: 25px;
-  padding: 10px 25px;
-  border: none;
-}
-
-.depoimento{
-  padding: 15px;
-  margin: 50px;
-  display: flex;
-  justify-content: center;
+    color: #fff;
+    background:#F46F36 ;
+    border-radius: 25px;
+    padding: 10px 25px;
+    border: none;
 }
 
 .depoimentos{
-  color: #000000;
+    padding: 15px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
+.quadros-depoimentos{
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+}
 
+.depoimento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.depoimento1{
+    background-color: #FFF;
+    border-radius: 15px;
+    padding: 40px;
+    margin: 35px 15px 5px 5px;
+    border: solid 2px #A6A6A6;
+}
+
+.depoimento2{
+  background-color: #FFF;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 35px 15px 5px 5px;
+  border: solid 2px #A6A6A6;
+}
+
+.depoimento3{
+  background-color: #FFF;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 35px 15px 5px 5px;
+  border: solid 2px #A6A6A6;
+}
+
+.entrar-contato{
+  background: #FFF;
+  padding: 5%;
+  align-items: center;
+}
+
+.contato{
+  background: #FFF;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  flex-direction: row;
+}
+
+.forms-informações{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #F46F36;
+}
+
+.localizacao{
+  color: #F46F36;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+.ctc{
+  margin: 1%;
+}
+.forms-inputs{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0% 0% 0% 5%;
+  padding: 50px;
+}
+
+.forms-ctc3{
+  padding: 5px 0px 60px 10px;
+  width: 25vw;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #F46F36;
+  color: #FFF;
+}
+
+.redes{
+ padding: 25px;
+ margin: 0px 10px 0px 0px;
+}
 
 
 /* CSS da tela de cadastro */
@@ -338,7 +430,7 @@ body{
     text-decoration: none;
   }
    
-  .welcome {
+.welcome {
     flex: 1;
     background-color: #f46f37;
     display: flex;
@@ -353,7 +445,7 @@ body{
     text-decoration: none;
   }
 
-  #voltar{
+#voltar{
     width: 20px;
     height: 20px;
     position: absolute;
@@ -363,7 +455,7 @@ body{
     margin-left: 20px;
 }
 
-  .welcome img {
+.welcome img {
     max-width: 290px;
     margin-bottom: 100px;
     width: 283px;
@@ -373,7 +465,7 @@ body{
     text-decoration: none;
   }
   
-  .form {
+.form {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -382,33 +474,33 @@ body{
     padding: 20px;
   }
   
-  h2, h3 {
+h2, h3 {
     margin: 1%;
     text-align: center;
     margin-bottom: 10px;
   }
 
-  h3{
+h3{
     font-size: 15px;
     font-weight: 300;
   }
 
-  p{
+p{
     font-size: 15px;
     font-weight: 500;
   }
 
-  #bem-vindo{
+#bem-vindo{
     text-align: start;
     font-size: 50px;
   }
 
-  #politicas{
+#politicas{
     text-align: left;
     width: 50%;
   }
 
-  h1 { color: #f46f37;
+h1 { color: #f46f37;
     text-align: center;
     font-size: 64px;
     font-family: Raleway;
@@ -418,12 +510,12 @@ body{
     font-size: 64px;
     margin: 0;
  }
-  #texto-dados{
+#texto-dados{
     font-size: 25px;
     font-weight: 300;
  }
   
-  input {
+input {
     width: 100%;
     padding: 10px;
     margin-bottom: 10spx;
@@ -432,7 +524,7 @@ body{
     background: #FFF;
   }
   
-  button1 {
+button1 {
     padding: 10px 20px;
     background-color: #FFF;
     border-radius:31px ;
@@ -442,7 +534,7 @@ body{
     text-decoration: none;
   }
 
-  button2 {
+button2 {
     padding: 10px 20px;
     background-color: #f46f37;
     border-radius:31px ;
@@ -450,7 +542,7 @@ body{
     color: #FFF;
   }
 
-  .container-input{
+.container-input{
     display: flex;
     width:50% ;
     flex-direction: column;
@@ -460,12 +552,6 @@ body{
 
 
   /* CSS  da tela de login */
-  body{
-    margin: 0px;
-    padding: 0PX;
-    font-family: 'Raleway', sans-serif;
-}
-
 .container {
     display: flex;
     justify-content: center;
@@ -485,8 +571,6 @@ body{
     color:#FFF;
     position: relative;
   }
-
-
 
 #voltar{
     width: 20px;
@@ -579,7 +663,7 @@ p{
     background: #FFF;
   }
   
-  button1 {
+  .button1 {
     padding: 10px 20px;
     background-color: #FFF;
     border-radius:31px ;
@@ -589,13 +673,12 @@ p{
     text-decoration: none;
   }
 
-  button2 {
+  .button2 {
     padding: 10px 20px;
     background-color: #f46f37;
     border-radius:31px ;
     border: 2px solid #FFF;
     color: #FFF;
-    
   }
 
   .container-input{
@@ -603,3 +686,14 @@ p{
     width:50% ;
     flex-direction: column;
   }
+
+
+  /* CSS da tela de curso */
+  .logo-curso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 43%;
+  }
+
+  
