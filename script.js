@@ -24,21 +24,3 @@ function carrossel(){
 }
 
 setInterval(carrossel,5080);
-
-// SLIDER TIME LINE
-const imgs2 = document.getElementById("img2");
-const img2 = document.querySelectorAll("#img2 img2");
-
-let idx2=0;
-
-function carrossel(){
-    idx++;
-    
-   if(idx >img2.length - 1){
-    idx = 0;
-   }
-
-    imgs2.style.transform = `translateX(${-idx * 1034}px)`;
-}
-
-setInterval(carrossel,1080);

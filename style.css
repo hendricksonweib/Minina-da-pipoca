@@ -90,7 +90,7 @@ header{
 }
 
 .user-button:active{
-    color:#FE5108;
+    color:#ff9d73;
 }
 
 .cadastrar-button{
@@ -105,7 +105,7 @@ header{
 }
 
 .entrar-button:active{
-    color:#FE5108;
+    color:#fcccb7;
 }
 
 .entrar-button{
@@ -171,10 +171,6 @@ transform: translatex(0);
     color: #000000;
 }
 
-.saiba-mais :active{
-    color:#F46F36;
-}
-
 .products{
     display: flex;
     flex-direction: column;
@@ -189,7 +185,10 @@ transform: translatex(0);
 h2.valor{
     color: red;
 }
-
+ a{
+  text-decoration: none;
+  color: #fff;
+ }
 .pipoca-10x{
     padding: 15px;
     margin: 10px;
@@ -227,6 +226,8 @@ h2.valor{
     border-radius: 20px;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    list-style: none;
 }
 
 .quadrado-foto {
@@ -246,9 +247,12 @@ h2.valor{
     align-items: start;
     justify-content: center;
     margin: 0% 4%;
+    text-decoration: none;
+    list-style: none;
 }
 
 .saiba-mais-btn{
+    text-decoration: none;
     color: #fff;
     background:#F46F36 ;
     border-radius: 25px;
@@ -324,6 +328,7 @@ h2.informacoes3{
     border-radius: 25px;
     padding: 10px 25px;
     border: none;
+    text-decoration: none;
 }
 
 .depoimentos{
@@ -771,20 +776,54 @@ justify-content: center;
 }
 
 /* CSS da tela Sobre nós */
-.slider2{
-  overflow: hidden;
-  width: 1034px;
-  height: 358px;
-}
-
-.slides2{
+.timelineL{
+background: #ffffff;
+padding: 15px;
+margin: 30px 200px;
+border-radius: 20px;
 display: flex;
-transition: transform 0.5s ease-in-out;
-transform: translatex(0);
+justify-content: center;
+flex-direction: row; 
+box-shadow: 2px 2px 2px #A6A6A6;
 }
 
-.sl2{
-object-fit: cover;
-width: 1034px;
-height: 358px;
+.informacoes-timeline{
+  display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 0% 4%;
 }
+
+.timelineR{
+  background: #ffffff;
+  padding: 15px;
+  margin: 30px 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; 
+  box-shadow: 2px 2px 2px #A6A6A6;
+  }
+
+  .informacoes2-timeline{
+  display:flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+
+.timelineju{
+  padding: 15px;
+  margin: 30px 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; 
+  }
+
+  .julianah1{
+color: #000000;
+  }
