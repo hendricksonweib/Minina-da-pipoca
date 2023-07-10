@@ -1,4 +1,8 @@
 /* Tela principal */
+html{
+  scroll-behavior: smooth;
+}
+
 body{
     margin: 0px;
     height: 100vh;
@@ -6,6 +10,7 @@ body{
     background: #f5f5f5;
     font-family: 'Raleway', sans-serif;
 }
+
 
 header{
     background-image: linear-gradient(to bottom, #F46F36, #FE5108);
@@ -130,9 +135,21 @@ ul{
 }
 
 .slider{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    overflow: hidden;
+    width: 1440px;
+    height: 440px;
+}
+
+.slides{
+display: flex;
+transition: transform 0.5s ease-in-out;
+transform: translatex(0);
+}
+
+.sl{
+  object-fit: cover;
+  width: 1440px;
+  height: 440px;
 }
 
 .products{
@@ -355,7 +372,7 @@ h2.informacoes3{
   border: solid 2px #A6A6A6;
 }
 
-.entrar-contato{
+#entrar-contato{
   background: #FFF;
   padding: 5%;
   align-items: center;
@@ -411,6 +428,10 @@ footer{
 .redes{
  padding: 25px;
  margin: 0px 10px 0px 0px;
+}
+
+.products, .sobre-nos, .onde-encontrar, .curso {
+  visibility: hidden;
 }
 
 
@@ -689,11 +710,81 @@ p{
 
 
   /* CSS da tela de curso */
+  
+.info-curso{
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
   .logo-curso{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px 0px 0px 43%;
   }
+.video{
+  margin: 0px 0px 0px 20%;
+}
+  .cursoh1{
+    color: #000000;
+    margin: 5%;
+  }
 
-  
+  .cursop{
+    text-align: center;
+    margin: 5% 20%;
+  }
+
+.saiba-mais-btn-curso{
+  color: #fff;
+  background:#F46F36 ;
+  border-radius: 25px;
+  padding: 10px 25px;
+  border: none;
+  margin: 25px 50px 50px 45%;
+}
+
+/* CSS da tela de Onde encontrar */
+.quadrado-mapa{
+  background: #ffffff;
+  padding: 55px;
+  margin: 140px 180px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 2px #c1c1c1;
+}
+
+.mapah2{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.informacoes-mapa{
+  display:flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin: 0% 10%;
+}
+
+/* CSS da tela Sobre nós */
+.slider2{
+  overflow: hidden;
+  width: 1034px;
+  height: 358px;
+}
+
+.slides2{
+display: flex;
+transition: transform 0.5s ease-in-out;
+transform: translatex(0);
+}
+
+.sl2{
+object-fit: cover;
+width: 1034px;
+height: 358px;
+}
