@@ -6,7 +6,7 @@ html{
 body{
     margin: 0px;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: #f5f5f5;
     font-family: 'Raleway', sans-serif;
 }
@@ -827,3 +827,74 @@ box-shadow: 2px 2px 2px #A6A6A6;
   .julianah1{
 color: #000000;
   }
+
+  /* CCS da pagina de produtos */
+  main {
+    margin: 0 178px;
+    padding: 15px;
+}
+ 
+main a {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.h1produtos {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+  margin: 0%;
+}
+
+.lista-produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+
+ul {
+  list-style: none;
+  margin: 10px;
+}
+
+
+.cards {
+  width: 250px;
+  height: 350px;
+  padding: 20px;
+  border-radius: 25px;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 4px 4px rgb(182, 180, 180);
+}
+
+.button-pdt {
+  width: 124px;
+  height: 41px;
+  border-radius: 10px;
+  background: #F6682C;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  border: none;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 60px;
+}
