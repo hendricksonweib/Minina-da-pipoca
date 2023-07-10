@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <header>
@@ -35,16 +36,20 @@
     <nav>
         <ul  class="nav-itens">    
             <li><a href="tela-principal.html" class="nav-menu">Home</a></li>
-            <li><a href="#" class="nav-menu">Sobre</a></li>
-            <li><a href="#" class="nav-menu">Onde Encontrar</a></li>
+            <li><a href="sobre.html" class="nav-menu">Sobre</a></li>
+            <li><a href="local.html" class="nav-menu">Onde Encontrar</a></li>
             <li><a href="#" class="nav-menu">Produtos</a></li>
             <li><a href="cursos.html" class="nav-menu">Cursos</a></li>
-            <li><a href="#" class="nav-menu">Contatos</a></li>
+            <li><a href="#entrar-contato" class="nav-menu">Contatos</a></li>
         </ul> 
         </nav>
 
-        <section class="slider">
-            <img src="img/banner ee.jpg" alt="banner" href="#">
+        <section class="slider"> 
+            <div class="slides" id="img">
+            <img  src="img/banner-3.jpg" alt="banner3" >
+            <img  src="img/banner ee.jpg" alt="banner">
+            <img  src="img/banner-02.jpg" alt="banner2">
+        </div>
         </section>
 
         <section class="products">
@@ -127,7 +132,7 @@
                         </div>
                 </div>
             </section>
-            <section class="entrar-contato">
+            <section id="entrar-contato">
             <h1>Contato</h1>
             <form class="contato">
                 <div class="forms-informações">
@@ -158,5 +163,7 @@
             <a href="#"><button class="heart-button"><i class="fab fa-facebook-square"></button></i></a>
             </div>
         </footer>
+
+      <script src="script.js"></script>
 </body>
 </html>
