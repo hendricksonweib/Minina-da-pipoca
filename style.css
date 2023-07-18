@@ -729,7 +729,7 @@ justify-content: center;
     margin: 0px 0px 0px 43%;
   }
 .video{
-  margin: 0px 0px 0px 20%;
+  margin: 0px 0px 0px 15%;
 }
   .cursoh1{
     color: #000000;
@@ -754,7 +754,7 @@ justify-content: center;
 .quadrado-mapa{
   background: #ffffff;
   padding: 55px;
-  margin: 140px 180px;
+  margin: 50px 180px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
